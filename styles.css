@@ -91,14 +91,16 @@ footer {
     width: 100%;
 }
 
+@media only screen and (max-width: 1025px) {
+    footer {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 769px) {
     .container {
         max-width: 350px;
         max-height: 600px;
-    }
-
-    footer {
-        display: none;
     }
 }
 
